@@ -6,6 +6,7 @@ def solution(A):
         return 1 
     if len(A) == 1: 
         return 2 if A[0] == 1 else 1     
+    
     l = [0] * m 
     
     for i in range(len(A)): 
