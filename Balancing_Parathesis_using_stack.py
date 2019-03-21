@@ -17,10 +17,12 @@ def BalanceIt(string):
         if i in paranthesis_dict.keys():
             stack.append(i)
             top+=1
+            print(stack)
         elif i in paranthesis_dict.values():
             if (len(stack)>0) and (i == paranthesis_dict[stack[top]]):
                 stack.pop()
                 top-=1
+                print(stack)
             else:
                 return False
     
