@@ -21,7 +21,8 @@ def CountSquares(arr):
     return new_lst
 
 
-lst = ["9 25","1 20"]
+lst = ["3 9","17 24"]
 
 res = CountSquares(lst)
 print(res)
+
