@@ -14,5 +14,5 @@ def sumOdd(n):
         
         
 
-lst = [1,3,5,7,4]
+lst = [3,1,2,3]
 sumOdd(lst)
