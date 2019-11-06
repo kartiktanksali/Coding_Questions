@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 23 17:30:30 2019
 
-@author: kartiktanksali
-"""
 
 #Missing words
 def MissingWords(s,t):
@@ -25,8 +21,8 @@ def MissingWords(s,t):
     return lst
     
 
-s = "I like cheese"
-t = "like"
+s = "I use hackerrank to improve my programming"
+t = "programming hackerrank"
 
 res = MissingWords(s,t)
 print(res)
